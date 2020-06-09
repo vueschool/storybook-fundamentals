@@ -6,6 +6,15 @@ import { linkTo } from "@storybook/addon-links";
 export default {
   title: "Forms/LimitedInput",
   decorators: [() => "<div class='m-4'><story/></div>", withKnobs],
+  parameters: {
+    notes: `
+# LimitedInput use case
+
+Use this component for the *Id* field of a sign-up box.
+Since it's changing color when the value becomes too long, 
+it will gently hint users to reduce the size of their *Id* before they hit submit.
+  `,
+  },
 };
 
 export const SimpleStory = () => ({
@@ -16,6 +25,11 @@ export const SimpleStory = () => ({
 
 SimpleStory.story = {
   name: "Simple Story (bis)",
+  parameters: {
+    notes: `
+    This is the simplest story
+    `,
+  },
 };
 
 export const StoryForActions = () => ({
