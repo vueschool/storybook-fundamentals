@@ -7,5 +7,20 @@ module.exports = {
     "@storybook/addon-notes",
     "@storybook/addon-viewport",
     "@storybook/addon-a11y",
+    {
+      name: "@storybook/addon-docs",
+      options: {
+        babelOptions: {
+          presets: [
+            [
+              "@vue/cli-plugin-babel/preset",
+              {
+                jsx: false,
+              },
+            ],
+          ],
+        },
+      },
+    },
   ],
 };

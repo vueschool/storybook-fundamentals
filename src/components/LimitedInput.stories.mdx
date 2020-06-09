@@ -1,0 +1,21 @@
+import { Meta, Story, Preview, Props } from "@storybook/addon-docs/blocks";
+import LimitedInput from "./LimitedInput";
+
+<Meta title="Forms/LimitedInput" />
+
+# LimitedInput
+
+<Props of={LimitedInput} />
+
+A good use case for this component is the _Id_ field of a sign-up box.
+Since it's changing color when the value becomes too long,
+it will hint users gently to reduce the size of their _Id_.
+
+<Preview>
+  <Story name="Simple Story">
+    {{
+      components: { LimitedInput },
+      template: "<LimitedInput/>",
+    }}
+  </Story>
+</Preview>
