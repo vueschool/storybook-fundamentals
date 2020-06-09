@@ -7,9 +7,13 @@
         : 'bg-red-400 hover:bg-red-300'
     "
   >
-    <input v-model="checked" class="m-3" type="checkbox" :name="name" />{{
-      text
-    }}
+    <input
+      v-model="checked"
+      class="m-3"
+      type="checkbox"
+      :name="name"
+      @click="$emit('change', checked)"
+    />{{ text }}
   </label>
 </template>
 

@@ -4,6 +4,7 @@
       class="border px-2"
       :class="isTextTooLong ? 'border-red-500 bg-red-200' : undefined"
       v-model="val"
+      @input="$emit('input', val)"
     />
     <p v-if="isTextTooLong" class="text-red-600 text-xs">
       Limited to {{ limit }} chars.
