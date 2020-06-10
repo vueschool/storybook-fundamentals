@@ -8,12 +8,21 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "nuxt": "^2.0.0"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^2.0.0"
+    "@babel/core": "^7.10.2",
+    "@nuxtjs/tailwindcss": "^2.0.0",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/vue": "^5.3.19",
+    "babel-loader": "^8.1.0",
+    "babel-preset-vue": "^2.0.2"
   }
 }
