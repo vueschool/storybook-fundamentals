@@ -15,7 +15,7 @@ A well put-together Storybook suite can benefit anyone from individuals and free
 
 Since every Vue.js project is not installed with Vue CLI, we'll have a dedicated chapter where we cover how to install Storybook in a custom Vue.js project that does not use Vue CLI. We will also cover how to configure Storybook with TailwindCSS and Vuetify.
 
-This is the ultimate course if you want to begin using Storybook in your Vue.js projects, to X Y Z your components.
+This is the ultimate course if you want to begin using Storybook in your Vue.js projects, regardless if you're using the Vue CLI or not.
 
 [Click here to watch the Storybook with Vue.js course](https://vueschool.io/courses/storybook-with-vuejs).
 ---
